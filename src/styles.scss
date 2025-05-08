@@ -1,2 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
 @use "tailwindcss";
+
+/* Bạn có thể dùng @apply ở đây */
+.my-card {
+  @apply p-4 bg-white rounded-lg shadow-md hover:bg-gray-100;
+}

@@ -1,4 +1,9 @@
-<h1 class="text-3xl font-bold underline text-center mt-10">
-  Angular v19.1 + Tailwind CSS 4.0
-</h1>
-<router-outlet />
+<!-- app.component.html -->
+<div class="h-screen flex flex-col">
+  <header class="bg-gray-200 shadow p-4">
+    <h1 class="text-xl font-bold">Header (1)</h1>
+  </header>
+  <main class="flex-1">
+    <router-outlet />
+  </main>
+</div>
